@@ -1,10 +1,12 @@
 #include <iostream>
 #include <iomanip>
 
+using namespace std;
+
 int main() {
 	
 double A, B, C;
-std::cin >> A >> B >> C;
+cin >> A >> B >> C;
 
     double pi = 3.14159;
        double aTriangulo = (A * C) / 2;
@@ -13,13 +15,13 @@ std::cin >> A >> B >> C;
        double aQuadrado = B * B;
         double aRetangulo = A * B;
 
-    std::cout << std::fixed << std::setprecision(3);
+cout << fixed << setprecision(3);
     
-	 std::cout << "TRIANGULO: " << aTriangulo << std::endl;
-       std::cout << "CIRCULO: " << aCirculo << std::endl;
-    std::cout << "TRAPEZIO: " << aTrapezio << std::endl;
-         std::cout << "QUADRADO: " << aQuadrado << std::endl;
-           std::cout << "RETANGULO: " << aRetangulo << std::endl;
+cout << "TRIANGULO: " << aTriangulo << endl;
+cout << "CIRCULO: " << aCirculo << endl;
+cout << "TRAPEZIO: " << aTrapezio << endl;
+cout << "QUADRADO: " << aQuadrado << endl;
+cout << "RETANGULO: " << aRetangulo << endl;
 
     return 0;
 }
